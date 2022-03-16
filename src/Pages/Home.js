@@ -1,4 +1,3 @@
-import A001 from './A001'
 
 const Home = () => {
     return ( 
@@ -7,7 +6,7 @@ const Home = () => {
                 
                 <div class="row" style={{float:"right"}}>
 
-                    <div style={{background:"linear-gradient(#A60623,#E41C3E)", height:"300px", width:"100%"}}>
+                    <div style={{background:"linear-gradient(#A60623,#E41C3E)", height:"300px", width:"100%",borderRadius: '20px'}}>
                         <p style={{color:"white",fontSize:"35px", float:"left",marginLeft:"20px",marginTop:"50px"}}>WELCOME TO THE HUMAN <br></br>TUMOR ATLAS NETWORK</p>
                         <div>
                             <img src="/Desktop/Amir/image.png" class="rounded float-left" alt=""/>
@@ -23,43 +22,45 @@ const Home = () => {
                     </div>
 
                     <div class="col-10" stlye={{backgroundColor:"gray"}}>
-                        <h2 style={{color:"#2babd6", margin:"50px 0 10px 0"}}>Learn Precision Medicine</h2>
+                        <h2 style={{color:"#A60623", margin:"50px 0 10px 0"}}>Learn More about HTAN</h2>
                         <div class="row">
-                            <div class="col-2"style={{width:"250px",height:"300px",border:"2px solid black",margin:"10px 10px 10px 10px", backgroundColor:"#500411",position:"relative"}}>
+                            <div class="col-2"style={{width:"250px",height:"300px",border:"2px solid black",margin:"10px 10px 10px 10px", backgroundColor:"#500411",position:"relative",borderRadius: '20px'}}>
                                 <h4 style={{padding:"15px 5px 5px 5px", color:"white",fontSize:"160%"}}>A001</h4>
                                 <p style={{color:"white"}}>You can see it.</p>
                                 <div>
                                 {/* <a href="./" style={{background: "#97420E",border:"2px solid #97420E", color:"white", fontSize:"30px",width:"100%",boxSizing:"inherit", textDecorationLine:"none",bottom:"0",margin:"0",padding:"0"}}>See the Patient</a> */}
                                 <a href='./a001'><button style={{background: "#97420E",border:"2px solid #97420E", color:"white", fontSize:"30px",width:"100%"}}>See the Patient </button></a>
+                                <a href='./chart'><button style={{background: "#A60D1E",border:"2px solid #97420E", color:"white", fontSize:"30px",width:"100%"}}>See the graphs </button></a>
                                 </div>
                             </div>
 
-                            <div class="col-2"  style={{width:"250px",height:"300px",border:"2px solid black",margin:"10px 10px 10px 10px", backgroundColor:"#A60D1E"}}>
+                            <div class="col-2"  style={{width:"250px",height:"300px",border:"2px solid black",margin:"10px 10px 10px 10px", backgroundColor:"#A60D1E",borderRadius: '20px'}}>
                                 <h4 style={{padding:"15px 5px 5px 5px", color:"white"}}>A002</h4>
                                 <p style={{color:"white"}}>You can see it.</p>
-                                <button style={{background: "#97420E",border:"2px solid #97420E", color:"white", fontSize:"30px",width:"100%"}}>See the Patient</button>
-                            </div>
+                                <a href='./a002'><button style={{background: "#97420E",border:"2px solid #97420E", color:"white", fontSize:"30px",width:"100%"}}>See the Patient </button></a>
+                                </div>
 
-                            <div class="col-2"  style={{width:"250px",height:"300px",border:"2px solid black",margin:"10px 10px 10px 10px", backgroundColor:"#290307"}}>
+                            <div class="col-2"  style={{width:"250px",height:"300px",border:"2px solid black",margin:"10px 10px 10px 10px", backgroundColor:"#290307",borderRadius: '20px'}}>
                                 <h4 style={{padding:"15px 5px 5px 5px", color:"white"}}>A014</h4>
                                 <p style={{color:"white"}}>You can see it.</p>
-                                <button style={{background: "#97420E",border:"2px solid #97420E", color:"white", fontSize:"30px",width:"100%"}}>See the Patient</button>
+                                <a href='./a014'><button style={{background: "#97420E",border:"2px solid #97420E", color:"white", fontSize:"30px",width:"100%"}}>See the Patient </button></a>
                             </div>
 
-                            <div class="col-2"  style={{width:"250px",height:"300px",border:"2px solid black",margin:"10px 10px 10px 10px", backgroundColor:"#500411"}}>
+                            <div class="col-2"  style={{width:"250px",height:"300px",border:"2px solid black",margin:"10px 10px 10px 10px", backgroundColor:"#500411",borderRadius: '20px'}}>
                                 <h4 style={{padding:"15px 5px 5px 5px", color:"white"}}>A015</h4>
                                 <p style={{color:"white"}}>You can see it.</p>
-                                <button style={{background: "#97420E",border:"2px solid #97420E", color:"white", fontSize:"30px",width:"100%"}}>See the Patient</button>
+                                <a href='./a015'><button style={{background: "#97420E",border:"2px solid #97420E", color:"white", fontSize:"30px",width:"100%"}}>See the Patient </button></a>
                             </div>
+                            
 
                         </div>
 
 
                         <div class="row">
-                            <div class="col-2"style={{width:"250px",height:"300px",border:"2px solid black",margin:"10px 10px 10px 10px", backgroundColor:"#A60D1E",position:"relative"}}>
+                            <div class="col-2"style={{width:"250px",height:"300px",border:"2px solid black",margin:"10px 10px 10px 10px", backgroundColor:"#A60D1E",position:"relative",borderRadius: '20px'}}>
                                 <h4 style={{padding:"15px 5px 5px 5px", color:"white",fontSize:"160%"}}>A040</h4>
                                 <p style={{color:"white"}}>You can see it.</p>
-                                <button style={{background: "#97420E",border:"2px solid #97420E", color:"white", fontSize:"30px",width:"100%"}}>See the Patient</button>
+                                <a href='./a040'><button style={{background: "#97420E",border:"2px solid #97420E", color:"white", fontSize:"30px",width:"100%"}}>See the Patient </button></a>
                             </div>
 
    

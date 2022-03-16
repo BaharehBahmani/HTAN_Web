@@ -1,0 +1,19 @@
+.productbox {
+    display: flex;
+    margin: auto;
+    height: 240px;
+    width: 240px;
+    background-color: grey;
+  }
+  
+  .notdisplayed {
+    display: none;
+  }
+  
+  .displayed {
+    display: flex;
+    height: 20px;
+    margin: auto;
+    font-family: sans-serif;
+    text-align: center;
+  }
