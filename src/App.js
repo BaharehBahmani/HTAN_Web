@@ -1,11 +1,19 @@
-import logo from './logo.svg';
+
 import './App.css';
-import {Switch, Route, NavLink} from 'react-router-dom';
+import React from 'react';
+import { BrowserRouter as Router,Switch, Route, NavLink} from 'react-router-dom';
 import Home from './Pages/Home'
 import Members from './Pages/Members'
+import A001 from './Pages/A001'
+import A002 from './Pages/A002'
+import A040 from './Pages/A040'
+import A014 from './Pages/A014'
+import A015 from './Pages/A015'
 import Papers from './Pages/Papers'
 import Contact from './Pages/Contact'
-import A001 from './Pages/A001'
+import Graph from './Pages/Graph'
+import Chart from './component/Chart'
+
 
 
 
@@ -29,17 +37,25 @@ const NavBar = () => {
 
 function App() {
   return (
+    <Router>
     <div className="App">
       <NavBar />
        <Switch>
        <Route path="/contact" component = {Contact} /> 
        <Route path="/paper" component = {Papers} /> 
        <Route path="/member" component = {Members} /> 
+       <Route path="/chart" component ={Chart} />
+       <Route path="/graph" component={Graph}/>
        <Route path="/a001" component = {A001} /> 
-       <Route path="/" component = {Home} /> 
+       <Route path="/a002" component = {A002} /> 
+       <Route path="/a015" component = {A015} /> 
+       <Route path="/a014" component = {A014} /> 
+       <Route path="/a040" component = {A040} /> 
+       <Route path="/" exact component = {Home} /> 
        </Switch>
-      
+       {/* <Chart legendPosition="bottom" /> */}
     </div>
+    </Router>
   );
 }
 
